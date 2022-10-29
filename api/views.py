@@ -7,6 +7,6 @@ def student (request):
         'slackUsername': 'Olatomide',
         'backend' : 'True',
         'age' : '30',
-        'Bio' : 'I am cool person that loves to meet people. I am ready to get improved'
+        'Bio' : 'I am cool person that loves to meet people. My aim is to learn better'
     }
     return Response(person)
